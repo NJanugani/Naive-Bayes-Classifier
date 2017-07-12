@@ -1,0 +1,6 @@
+Training the faces
+
+Creates two arrays that would be used to store thr number of times a pixel is '#' for each face and non-face in the training data.
+Read each input and update the corresponding matrix depending on whether the image is a face or not.
+Divide each value in the array by corresponding number of images to get probability of each pixel.
+Since each probability can be a small decimal, we multiply the log of the probability instead of the probability themselves.

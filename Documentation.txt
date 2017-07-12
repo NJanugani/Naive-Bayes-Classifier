@@ -1,0 +1,34 @@
+
+imgf - is a 70 x 60 array data structure used to store the probabilities of each pixel being a '#' given that the particular  being classified as face.
+
+imgnf - is a 70 x 60 array data structure used to store the probabilities of each pixel being a '#' given that the particular  being classified as face.
+
+a - is an array data structure used to store the classification of trained data.
+
+face - stores the count of total instances which are classified as faces
+
+non_face - stores the count of instances which are classified as non-faces
+
+f - probability of it being a face out of all instances
+
+nf - probability of it being a non_face out of all instances
+
+actual - is an array data structure used to store the classification of tested data(used to calculate accuracy and (confusion matrix).
+
+tp - instances which are true positives.
+
+tn - instances which are true negatives.
+
+fp - instances which are false positives.
+
+fn - instances which are false negatives.
+
+accuracy - stores the value of accuracy
+
+it_face - logarithm of probability of the image given that it is a face.
+
+it_nonface - logarithm of probability of the image given that it is a non-face.
+
+x - prediction of the given testing image.
+
+
